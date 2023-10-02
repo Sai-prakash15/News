@@ -1,0 +1,9 @@
+default_context:
+    project_name: "news_backend"
+    app_name: "news_powered_by_metaphor"
+    python_version: "3.8"
+    admin_user_username: "admin"
+    admin_user_email: "ch.saiprakash22@gmail.com"
+    admin_user_password: "admin"
+    use_celery: "no"
+    wsgi_server: "uwsgi"
