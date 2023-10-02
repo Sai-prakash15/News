@@ -15,30 +15,14 @@ window.process = process.env;
 
 function App(props) {
   const particlesInit = async (main) => {
-    // console.log(main);
 
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
     await loadFull(main);
   };
 
-  // useEffect(() => {
-  //   const { ethereum } = window;
-  //   const {sethaveMetamask} = props;
-  //   const checkMetamaskAvailability = () => {
-  //     if (!ethereum) {
-  //       sethaveMetamask(false);
-  //     }
-  //     sethaveMetamask(true);
-  //   };
-  //   checkMetamaskAvailability();
-  // }, []);
 
   return (
     
     <div className="App" >
-      {/* <canvas class="particles-js-canvas-el" width="1748" height="842" style="width: 100%; height: 100%;"/> */}
       <Particles
       id="tsparticles"
       init={particlesInit}
@@ -173,20 +157,6 @@ function App(props) {
         }
       />
     </Routes>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
     </div>
   );
 }

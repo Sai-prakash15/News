@@ -1,0 +1,2 @@
+web: gunicorn news_powered_by_metaphor.wsgi:app --timeout 150
+log: tail -f log/development.log

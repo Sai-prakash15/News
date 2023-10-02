@@ -3,7 +3,7 @@ from flask_restful import Resource
 from news_powered_by_metaphor.controllers.api.v1 import APIV1Controller
 
 DEFAULT_INPUT = "Latest news"
-DEFAULT_CHANNEL = ["www.cnn.com"]
+DEFAULT_CHANNEL = "www.cnn.com"
 DEFAULT_ADDRESS = "-1"
 
 

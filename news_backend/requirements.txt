@@ -24,6 +24,7 @@ Flask-Migrate==4.0.5
 Flask-RESTful==0.3.10
 Flask-SQLAlchemy==3.1.1
 frozenlist==1.4.0
+gunicorn==21.2.0
 idna==3.4
 importlib-metadata==6.8.0
 itsdangerous==2.1.2
