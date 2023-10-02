@@ -26,9 +26,9 @@ def create_app(testing=False):
 
 def configure_extensions(app):
     """Configure flask extensions"""
-    db.init_app(app)
+    # db.init_app(app)
     jwt.init_app(app)
-    migrate.init_app(app, db)
+    # migrate.init_app(app, db)
 
 
 def configure_cli(app):
