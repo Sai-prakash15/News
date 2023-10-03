@@ -27,7 +27,7 @@ const goToHome = (event) => {
     <Box sx={{ position: "fixed", top: 0, width:"100%", zIndex:"10000"}}>
       <Toolbar position="fixed" style={{ backgroundColor: "black"  }}>
       <Typography variant="h6" color='#701ea5' fontFamily="Gill Sans" paddingTop="10px" gutterBottom onClick={goToHome} sx={{ display: { xs: 'none', sm: 'block', cursor: 'pointer' } }}>
-        NEWS <Typography variant="h9" color= "#0074d7" fontSize="10px">Powered By Metaphor+ChatGPT</Typography>
+        GistNews <Typography variant="h9" color= "#0074d7" fontSize="10px">Powered By Metaphor+ChatGPT</Typography>
       </Typography>
         <Box sx={{ flexGrow: 1 }} />
       </Toolbar>
